@@ -1,0 +1,117 @@
+/* You can add custom CSS and extend Boostrap styles in this file. Remember, Bootstrap is just CSS at the end of the day! */
+body{
+  background-image: url("img/jeremy-perkins-uhjiu8FjnsQ-unsplash.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Kode Mono", monospace;
+  color: green;
+  text-align: center;
+}
+
+h3{
+  font-family: "Micro 5", sans-serif;
+  font-size: 50px;
+}
+nav{
+  font-family: "Micro 5", sans-serif;
+  font-size: 50px;
+  color: green;
+  padding: 10%;
+}
+
+#nav-link{
+  color: green;
+  opacity: 75%;
+}
+
+#hero-section {
+  font-family: "Micro 5", sans-serif;
+  width: 100%;
+  text-align: center;
+  padding: 10%;
+}
+.rounded-circle{
+  height: 25vw; 
+   width: 25vw; 
+  border: 2px solid #fff;
+  border-radius: 50%;
+  box-shadow: 0 0 5px gray;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+}
+
+#container{
+  /*background-color: white;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);*/
+  display: flex;
+  justify-items: center;
+}
+.card{
+  background-color: rgba(0, 0, 0, 0.1);
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+}
+.card-img-top{
+  margin-top: 20px;
+  /*background-color: red;*/
+  width: auto;
+  height: 100px;
+}
+.card-title{
+  margin-top: 25px;
+  padding: auto;
+  text-align: center;
+  font-size: 30px;
+  color: green;
+}
+.card-body{
+  color:green;
+}
+@keyframes color {
+  0%   { background: #33CCCC; }
+  20%  { background: #33CC36; }
+  60%  { background: #13532e; }
+  80%  { background: #33CC36; }
+  100% { background: #33CCCC; }
+}
+
+#mission-section {
+  padding: 5%;
+  text-align: center;
+  color: black;
+  background-color: green;
+  opacity: 75%;
+  margin: 20%;
+  border: 10 px solid lightgreen;
+  animation: color 9s infinite;
+}
+.planet{
+  padding: auto;
+  width: 200px;
+  height: ;
+}
+#contact-section{
+  padding: 5%;
+  text-align: center;
+  color: black;
+  background-color: green;
+  opacity: 75%;
+  margin: 20%;
+  border: 10 px solid lightgreen;
+  animation: color 9s infinite;
+}
+#social-media{
+  font-size: 40px;
+}
+
+footer{
+  font-family: "Micro 5", sans-serif;
+  font-size: 40px;
+  color: green;
+}
